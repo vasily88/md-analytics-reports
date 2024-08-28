@@ -1,4 +1,103 @@
+/* Heebo */
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-Light.eot");
+  src: url("./fonts/Heebo-Light.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-Light.woff2") format("woff2"),
+    url("./fonts/Heebo-Light.woff") format("woff"),
+    url("./fonts/Heebo-Light.ttf") format("truetype"),
+    url("./fonts/Heebo-Light.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-Regular.eot");
+  src: url("./fonts/Heebo-Regular.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-Regular.woff2") format("woff2"),
+    url("./fonts/Heebo-Regular.woff") format("woff"),
+    url("./fonts/Heebo-Regular.ttf") format("truetype"),
+    url("./fonts/Heebo-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-SemiBold.eot");
+  src: url("./fonts/Heebo-SemiBold.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-SemiBold.woff2") format("woff2"),
+    url("./fonts/Heebo-SemiBold.woff") format("woff"),
+    url("./fonts/Heebo-SemiBold.ttf") format("truetype"),
+    url("./fonts/Heebo-SemiBold.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-Bold.eot");
+  src: url("./fonts/Heebo-Bold.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-Bold.woff2") format("woff2"),
+    url("./fonts/Heebo-Bold.woff") format("woff"),
+    url("./fonts/Heebo-Bold.ttf") format("truetype"),
+    url("./fonts/Heebo-Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-ExtraBold.eot");
+  src: url("./fonts/Heebo-ExtraBold.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Heebo-ExtraBold.woff") format("woff"),
+    url("./fonts/Heebo-ExtraBold.ttf") format("truetype"),
+    url("./fonts/Heebo-ExtraBold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: "Heebo";
+  src: url("./fonts/Heebo-Black.eot");
+  src: url("./fonts/Heebo-Black.eot") format("embedded-opentype"),
+    url("./fonts/Heebo-Black.woff2") format("woff2"),
+    url("./fonts/Heebo-Black.woff") format("woff"),
+    url("./fonts/Heebo-Black.ttf") format("truetype"),
+    url("./fonts/Heebo-Black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Heebo";
+  font-weight: 400;
+}
+
+
+footer {
+  width: 100%;
+  height: 5vw;
+  background-color: #000;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
