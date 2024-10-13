@@ -1,6 +1,10 @@
+import Logo from '../../assets/logo.webp'
+
 const Header = () => {
     return (
-        <div>Header</div>
+        <header className='flex p-10'>
+            <img className='logoHeader' src={Logo} alt="logo" />
+        </header>
     )
 }
 

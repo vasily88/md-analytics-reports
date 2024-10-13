@@ -80,6 +80,9 @@
   font-display: swap;
 }
 
+:root {
+  --var-color1: #000;
+}
 
 * {
   margin: 0;
@@ -88,11 +91,27 @@
   font-weight: 400;
 }
 
+img {
+  height: auto;
+  object-fit: contain;
+}
+
+.p-10 {
+  padding: 0.52vw;
+}
+
+header {
+  background-color: var(--var-color1);
+}
+
+.logoHeader {
+  width: 10vw;
+}
 
 footer {
   width: 100%;
   height: 5vw;
-  background-color: #000;
+  background-color: var(--var-color1);
   color: #fff;
 }
 
